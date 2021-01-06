@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+li, a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: -80px;
+    z-index: 1;
+    border-bottom: 1px solid #333333;
+}
+
+.logo {
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.nav_links {
+    list-style: none;
+    background-color: white;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: white;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    background-color: white;
+}
+
+.nav_links li a:hover {
+    color: gray;
+}
+
+/* Main part */
+
+.introduction-container {
+    background-image: url(./resources/Powder\ Bg.jpg);
+    background-position: center;
+    display: flex;
+    min-height: 800px;
+    margin-top: 80px;
+    opacity: 0.85;
+}
+
+.introduction {
+    color: white;
+    background-color: transparent;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+    font-size: larger;
+    width: 100%;
+    align-items: center;
+}
+
+.introduction h1 {
+    background-color: transparent;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 21%;
+    z-index: 1;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Mission */
+
+.mission {
+    height: 200px;
+    text-align: center;
+}
+
+.mission h1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#CEO {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 200px;
+    color: grey;
+}
+
+#CEO-desc{
+    text-align: right;
+    margin-right: 200px;
+    color: grey;
+}
+
+/* what we do */
+
+.what-we-do-container {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.9;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.what-we-do-h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.what-we-do-container div{
+    height: 300px;
+    min-width: 40x;
+    background-color:#808080;
+    text-align: center;
+    line-height: 300px;
+    flex: 1;
+    margin: 4rem;
+    border-radius: 4%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.innovation {
+    background-image: url(./resources/Innovation.jpg);
+    background-position: center;
+}
+
+.development {
+    background-image: url(./resources/Development.jpg);
+    background-position: center;
+}
+
+.sourcing {
+    background-image: url(./resources/Sourcing.jpg);
+    background-position: 42% 70%;
+}
+
+.deployment {
+    background-image: url(./resources/Deployment.jpg);
+    background-position: center;
+}
+
+/* Careers */
+#careers {
+    margin-top: 100px;
+}
+
+#left {
+    width: 50%;
+    float: left;
+    height: 600px;
+    background-color:	#333333;
+}
+
+#left p {
+    margin-top: 60px;
+    background-color:	#333333;
+    color: white;
+    padding: 2em;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+#right {
+    width: 50%;
+    float: right;
+    filter: brightness(79%)
+}
+
+/* footer */
